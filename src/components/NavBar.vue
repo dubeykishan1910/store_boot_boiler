@@ -13,7 +13,7 @@
             <ul class="navbar-nav me-auto text-center">
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="/">Home</a>
                 </li>
 
                 <li class="nav-item">
@@ -67,6 +67,7 @@ export default {
 </script>
 
 <style scoped>
+
 #navbar{
     background: #f9f9f9;
 }
@@ -105,5 +106,11 @@ export default {
     .navbar-nav .nav-link {
         text-align: center;
     }
+
+    form input{
+    width: 200px;
+    margin-left: 30%;
+}
+
 }
 </style>
