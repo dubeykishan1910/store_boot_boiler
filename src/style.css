@@ -1,0 +1,25 @@
+/*=============== BASE ===============*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    text-transform: capitalize;
+    
+  }
+  .body-home{
+    background: #f1fbff;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* .section-padding{
+    padding: 100px 0;
+  } */
