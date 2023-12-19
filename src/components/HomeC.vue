@@ -40,9 +40,6 @@
         <ReviewC />
     </div>
 
-    <div id="contact">
-        <ContactC />
-    </div>
 
     <!-- footer  -->
     <footer class="bg-dark p-2 text-center">
@@ -63,7 +60,7 @@ import AboutC from './AboutC.vue';
 import ServicesC from "./ServicesC.vue";
 import CardP from './CardP.vue';
 import ReviewC from '../components/ReviewC.vue';
-import ContactC from '../components/ContactC.vue';
+
 
 export default {
     name: 'HomeC',
@@ -73,7 +70,7 @@ export default {
         ServicesC,
         CardP,
         ReviewC,
-        ContactC
+        
     },
     data() {
         return {
